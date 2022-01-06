@@ -1,7 +1,20 @@
-# LitElement TypeScript starter
+# Simpliest Autocomlete Ever
 
-This project includes a sample component using LitElement with TypeScript.
+Autocomlete implementation with [TypeScript](https://www.typescriptlang.org/) & [lite.dev](https://lit.dev/)  libraries.  
 
+![demo](./demo.gif)
+
+## Requirements  
+
+- The autocomplete component should consist of one input element and list of results.    
+- Results should highlight the corresponding search term.   
+
+### The user can:   
+
+- Press ESC to clear the search.  
+- Click outside of the component to remove the list.   
+- Navigate the available suggestions with up / down arrows.  
+- Press ENTER or clicking an item should console.log the item.   
 ## Setup
 
 Install dependencies:
@@ -12,7 +25,7 @@ npm i
 
 ## Build
 
-This sample uses the TypeScript compiler to produce JavaScript that runs in modern browsers.
+This project uses the TypeScript compiler to produce JavaScript that runs in modern browsers.
 
 To build the JavaScript version of your component:
 
